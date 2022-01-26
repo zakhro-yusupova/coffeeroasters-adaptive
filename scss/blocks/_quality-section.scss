@@ -1,0 +1,274 @@
+// quality-section
+
+.quality__inner{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../images/Bitmap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  align-items: center;
+  margin: 0 auto;
+  padding: 88px 85px 170px;
+}
+
+.quality__img{
+  position: absolute;
+  top: -76px;
+  right: 85px;
+  border-radius: 10px;
+}
+
+.quality__info{
+  width: 540px;
+  margin-right: 125px;
+}
+
+.quality__title{
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.quality__text{
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+
+@media only screen and (max-width:1210px){
+
+  .questions__info{
+    width: 420px;
+    margin-right: 100px;
+  }
+
+  .quality__title{
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width:1210px){
+
+  .quality__info{
+    width: 420px;
+    margin-right: 100px;
+  }
+
+  .quality__title{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width:1085px){
+
+  .quality__inner{
+    padding-bottom: 36px;
+  }
+
+  .quality__info{
+    width: 400px;
+    margin-right: 100px;
+  }
+
+}
+
+@media only screen and (max-width:1045px){
+
+  .quality__inner{
+    padding-bottom: 0px;
+  }
+
+  .quality__img{
+    width: 380px;
+  }
+
+  .quality__info{
+    width: 400px;
+  }
+
+  .quality__title{
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width:980px){
+
+  .quality{
+    padding-top: 140px;
+  }
+
+  .quality__inner{
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+
+  .quality__img{
+    position: absolute;
+    width: 743px;
+    top: -155px;
+    margin: 0 auto;
+  }
+
+  .quality__info{
+    width: 740px;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+  }
+}
+
+  @media only screen and (max-width:900px){
+
+    .quality{
+      padding-top: 140px;
+    }
+
+    .quality__inner{
+      flex-direction: column;
+      padding-bottom: 0px;
+    }
+
+    .quality__img{
+      position: absolute;
+      width: 743px;
+      top: -155px;
+      left: 60px;
+      margin: 0 auto;
+    }
+
+    .quality__info{
+      width: 800px;
+      margin: 0 auto;
+      margin-top: 300px;
+      text-align: center;
+    }
+  }
+
+  @media only screen and (max-width:865px){
+
+    .quality{
+      padding-top: 140px;
+    }
+
+    .quality__inner{
+      flex-direction: column;
+      padding-bottom: 0px;
+    }
+
+    .quality__img{
+      position: absolute;
+      width: 743px;
+      top: -155px;
+      right: 85px;
+      margin: 0 auto;
+    }
+
+  .quality__info{
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 300px;
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width:769px){
+
+  .quality__inner{
+    flex-direction: column;
+    padding-bottom: 0px;
+
+  }
+
+  .quality__img{
+    position: absolute;
+    width: 543px;
+    top: -135px;
+    margin-bottom: 64px;
+  }
+
+  .quality__info{
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 335px;
+    text-align: center;
+  }
+
+  .quality__title{
+    font-size: 32px;
+  }
+}
+
+
+@media only screen and (max-width:721px){
+
+  .quality__inner{
+    flex-direction: column;
+    padding-bottom: 0px;
+
+  }
+
+  .quality__img{
+    position: absolute;
+    width: 543px;
+    top: -155px;
+    margin-bottom: 64px;
+  }
+
+  .quality__info{
+    width: 540px;
+    margin: 0 auto;
+    margin-top: 335px;
+    text-align: center;
+  }
+
+  .quality__title{
+    font-size: 32px;
+  }
+}
+
+
+@media only screen and (max-width:370px){
+
+.quality__inner{
+padding-left: 25px;
+}
+
+  .quality__img{
+    position: absolute;
+    width: 279px;
+    height: 156px;
+    top: -75px;
+    left: 30px;
+ bottom: 64px;
+  }
+
+  .quality__info{
+    width: 280px;
+    margin: 0 auto;
+margin-top: 64px;
+    text-align: center;
+  }
+
+  .quality__title{
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width:321px){
+
+  .quality__inner{
+    padding:0  24px;
+
+  }
+
+  .qeuality__info{
+    margin-top: 105px;
+  }
+}

@@ -1,0 +1,30 @@
+// plan-section
+.plan{
+  padding-bottom: 155px;
+}
+
+  .plan__inner{
+    background-image: url("../images/plan-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 137px 85px;
+  }
+
+  .plan__info{
+    width: 445px;
+  }
+
+  .plan__title{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+  }
+
+  .plan__text{
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+  }

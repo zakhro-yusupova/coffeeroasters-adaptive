@@ -1,0 +1,28 @@
+html{
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+
+image{
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+ul,ol{
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow';
+  background-color: #F2F2F2;
+}

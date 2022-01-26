@@ -1,0 +1,138 @@
+// about-section
+.about{
+  padding-bottom: 168px;
+}
+
+  .about__inner{
+    background-image: url("../images/about-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 137px 85px;
+  }
+
+  .about__info{
+    width: 445px;
+  }
+
+  .about__title{
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+  }
+
+  .about__text{
+    line-height: 26px;
+    color: #FEFCF7;
+  }
+
+
+  @media only screen and (max-width: 951px) {
+
+    .about__inner {
+      background-image: url("../images/about-tabletbg.png");
+      background-position: center right;
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+
+.about__info{
+  width: 400px;
+}
+
+.about__title{
+  font-size: 32px;
+}
+  }
+
+  @media only screen and (max-width: 551px) {
+
+    .about__inner{
+      padding-left: 50px;
+    }
+
+    .about__info{
+      width: 400px;
+     margin: 0 auto;
+    }
+  }
+
+  @media only screen and (max-width: 465px) {
+
+    .about__inner{
+      padding-left: 35px;
+    }
+
+    .about__info{
+      width: 370px;
+     margin: 0 auto;
+    }
+  }
+
+
+  @media only screen and (max-width: 425px) {
+
+    .about__inner{
+      padding-left: 25px;
+    }
+
+    .about__info{
+      width: 340px;
+      margin: 0 auto;
+   text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 381px) {
+
+    .about__inner{
+      padding-left: 15px;
+    }
+
+    .about__info{
+      width: 310px;
+      margin: 0 auto;
+      padding-left: 15px;
+   text-align: center;
+    }
+
+    .about__title{
+      font-size: 32px;
+      margin-bottom: 24px;
+    }
+  }
+
+  @media only screen and (max-width: 355px) {
+
+    .about__inner{
+      padding-left: 10px;
+    }
+
+    .about__info{
+      width: 290px;
+      margin: 0 auto;
+    }
+  }
+
+
+  @media only screen and (max-width: 320px) {
+
+    .about__inner{
+      padding-left: 6px;
+    }
+
+    .about__info{
+      width: 280px;
+      margin: 0 auto;
+   text-align: center;
+    }
+
+    .about__title{
+      font-size: 32px;
+    }
+  }
