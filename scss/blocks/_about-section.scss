@@ -48,9 +48,11 @@
 }
 
 @media only screen and (max-width: 560px) {
+
   .about__inner {
     background-image: url("../images/about-mobile-bg.jpg");
     padding: 111px 24px  87px;
+    margin-bottom: 100px;
   }
 
   .about__info{
